@@ -1,0 +1,56 @@
+:root {
+  --bg-color: #a7abcd;
+  --btn-color: #fdf1b5;
+  --card-color: #fff;
+  --body-border: #e5e7eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid var(--body-border);
+}
+main {
+  width: 500px;
+  background-color: var(--card-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+span {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.banner {
+  background-color: var(--btn-color);
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 5px 100px 100px 5px;
+  position: relative;
+  bottom: 430px;
+  right: 20px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 0.5rem 1rem;
+}
+
+.content-body {
+  margin-top: 1rem;
+  font-weight: 500;
+}
